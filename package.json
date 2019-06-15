@@ -22,6 +22,7 @@
     "@reach/dialog": "^0.2.0",
     "@reach/router": "^1.2.1",
     "@reach/visually-hidden": "^0.1.1",
+    "aws-amplify": "^1.1.28",
     "babel-plugin-styled-components": "^1.10.0",
     "gatsby": "^2.3.26",
     "gatsby-image": "^2.0.39",
