@@ -4,7 +4,7 @@ module.exports = {
   siteTitle: `Gatsby Universal`,
   siteTitleShort: `GatsbyU`,
   siteDescription: `An opinionated starter for Gatsby.`,
-  siteUrl: `https://gu.fabianschultz.com`,
+  siteUrl: `https://master.d29eszqiyspi5u.amplifyapp.com/`,
   themeColor: `#000`,
   backgroundColor: `#fff`,
   pathPrefix: null,
