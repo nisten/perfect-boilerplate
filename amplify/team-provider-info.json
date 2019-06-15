@@ -1,0 +1,14 @@
+{
+    "hoz": {
+        "awscloudformation": {
+            "AuthRoleName": "newcred-hoz-20190615130307-authRole",
+            "UnauthRoleArn": "arn:aws:iam::612177115370:role/newcred-hoz-20190615130307-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::612177115370:role/newcred-hoz-20190615130307-authRole",
+            "Region": "us-west-2",
+            "DeploymentBucketName": "newcred-hoz-20190615130307-deployment",
+            "UnauthRoleName": "newcred-hoz-20190615130307-unauthRole",
+            "StackName": "newcred-hoz-20190615130307",
+            "StackId": "arn:aws:cloudformation:us-west-2:612177115370:stack/newcred-hoz-20190615130307/72d5cba0-8f8f-11e9-818a-0206b4669a7e"
+        }
+    }
+}
