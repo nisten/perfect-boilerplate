@@ -4,7 +4,6 @@ frontend:
     build:
       commands:
         - yarn install
-        - yarn test
         - yarn build
   artifacts:
     baseDirectory: public
