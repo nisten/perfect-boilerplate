@@ -66,7 +66,7 @@
 
 Do you have suggestions or feedback? [Open an issue](https://github.com/fabe/gatsby-universal/issues/new)!
 
-## Lighthouse scores (on [Netlify](https://netlify.com))
+## Google Lighthouse scores (from chrome dev-tools)
 
 [![Lighthouse scores](https://lighthouse.now.sh/?perf=100&pwa=100&a11y=100&bp=100&seo=100)](https://circleci.com/gh/fabe/gatsby-universal)
 
