@@ -1,12 +1,7 @@
 <p align="center">
-  <a href="https://github.com/fabe/gatsby-universal">
-    <img
-      src="https://i.imgur.com/MFWrZSx.png"
-      height="80"
-      alt="gatsby-universal"
-      title="gatsby-universal"
-    />
-  </a>
+  <h1>
+  The perfect boilerplate
+  </h1>
 </p>
 
 <p align="center">
@@ -37,7 +32,7 @@
 </p>
 
 <p align="center">
-  An <em>opinionated</em> High performance Gatsby boilerplate running on netlify and aws with perfect google lighthouse scores across the boar
+  An <em>opinionated</em> High performance Gatsby boilerplate running on netlify and aws with perfect google lighthouse scores across the board.
 </p>
 
 ***
@@ -72,6 +67,6 @@ Do you have suggestions or feedback? [Open an issue](https://github.com/fabe/gat
 
 All builds and deployments as a serverless app that "scales horizontally" are automated through AWS-Amplify. 
 
-Sorry about all the buzzwords.
+Enjoy the performance, and sorry about all the buzzwords.
 
 Nisten
