@@ -37,7 +37,7 @@
 </p>
 
 <p align="center">
-  An <em>opinionated</em> High performance Gatsby boilerplate running on netlify and aws with perfect google lighthouse scores across the board.
+  An <em>opinionated</em> High performance Gatsby boilerplate running on netlify and aws with perfect google lighthouse scores across the boar
 </p>
 
 ***
@@ -64,8 +64,14 @@
 - [X] 🔎 [`size-plugin`](https://github.com/GoogleChromeLabs/size-plugin) to keep an eye on your bundle sizes
 - [X] 👨‍🏫 ESLint (based on [`eslint-plugin-react`](./.eslintrc))
 
+Do you have suggestions or feedback? [Open an issue](https://github.com/fabe/gatsby-universal/issues/new)!
 
-Cheers,
+## Lighthouse scores (on [Netlify](https://netlify.com))
 
+[![Lighthouse scores](https://lighthouse.now.sh/?perf=100&pwa=100&a11y=100&bp=100&seo=100)](https://circleci.com/gh/fabe/gatsby-universal)
+
+All builds and deployments as a serverless app that "scales horizontally" are automated through AWS-Amplify. 
+
+Sorry about all the buzzwords.
 
 Nisten
