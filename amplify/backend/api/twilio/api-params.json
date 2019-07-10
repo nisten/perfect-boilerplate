@@ -1,0 +1,34 @@
+{
+    "paths": [
+        {
+            "name": "/items",
+            "lambdaFunction": "twilmessage",
+            "privacy": {
+                "open": true
+            }
+        }
+    ],
+    "resourceName": "twilio",
+    "apiName": "twilio",
+    "functionArns": [
+        {
+            "lambdaFunction": "twilmessage"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "newcred-hoz-20190615130307-authRole",
+        "unAuthRoleName": "newcred-hoz-20190615130307-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "twilmessage",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}

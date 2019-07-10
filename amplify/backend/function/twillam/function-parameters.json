@@ -1,0 +1,12 @@
+{
+    "permissions": {
+        "api": {
+            "neos": [
+                "create",
+                "read",
+                "update",
+                "delete"
+            ]
+        }
+    }
+}
