@@ -24,6 +24,11 @@
 			"service": "Lambda",
 			"providerPlugin": "awscloudformation",
 			"build": true
+		},
+		"newcred3195dce1": {
+			"service": "Lambda",
+			"providerPlugin": "awscloudformation",
+			"build": true
 		}
 	},
 	"api": {
@@ -34,6 +39,20 @@
 				{
 					"category": "function",
 					"resourceName": "twilmessage",
+					"attributes": [
+						"Name",
+						"Arn"
+					]
+				}
+			]
+		},
+		"demo": {
+			"service": "API Gateway",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": [
+				{
+					"category": "function",
+					"resourceName": "newcred3195dce1",
 					"attributes": [
 						"Name",
 						"Arn"

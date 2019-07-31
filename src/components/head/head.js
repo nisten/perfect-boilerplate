@@ -146,7 +146,7 @@ const Head = ({
     <link
       href="/icons/favicon-16x16.png"
       rel="icon"
-      sizes="16x16"
+      sizes="24x24"
       type="image/png"
     />
 

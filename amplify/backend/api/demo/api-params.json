@@ -1,0 +1,34 @@
+{
+    "paths": [
+        {
+            "name": "/items",
+            "lambdaFunction": "newcred3195dce1",
+            "privacy": {
+                "open": true
+            }
+        }
+    ],
+    "resourceName": "demo",
+    "apiName": "demo",
+    "functionArns": [
+        {
+            "lambdaFunction": "newcred3195dce1"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "newcred-hoz-20190615130307-authRole",
+        "unAuthRoleName": "newcred-hoz-20190615130307-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "newcred3195dce1",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}
