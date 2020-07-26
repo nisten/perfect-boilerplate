@@ -19,7 +19,7 @@ Layout.propTypes = {
   data: PropTypes.object.isRequired,
 };
 
-const LayoutWithQuery = props => (
+const LayoutWithQuery = (props) => (
   <StaticQuery
     query={graphql`
       query LayoutQuery {
@@ -30,7 +30,7 @@ const LayoutWithQuery = props => (
         }
       }
     `}
-    render={data => <Layout data={data} {...props} />}
+    render={(data) => <Layout data={data} {...props} />}
   />
 );
 

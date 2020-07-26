@@ -47,7 +47,7 @@
             },
             "Environment": {"Variables" : { "ENV": {"Ref": "env"}, "REGION": { "Ref": "AWS::Region"}}},
             "Role": { "Fn::GetAtt" : ["LambdaExecutionRole", "Arn"] },
-            "Runtime": "nodejs8.10",
+            "Runtime": "nodejs10.x",
             "Timeout": "25"
           }
         },
